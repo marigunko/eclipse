@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no">
+        <link href="css/main.min.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/favicon.png"> 
+        <title>Eclipse</title>
+    </head>
+    <body style="background-color: #000000;">
+
+        <div class="loading__container">
+            <div class="loading">
+                <div class="shadow"></div>
+                <div class="mask"></div>
+            </div>
+        </div>
+
+        <header>
+            <div class="contacts__header">
+                <div class="d-flex align-content-center justify-content-between">
+                    <a href="#" id="back" class="logo__link" onclick="history.back();">
+                        <h1 class="logo__text">eclipse</h1>
+                    </a>
+                    <a href="#" id="back" class="switcher" onclick="history.back();"></a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-md-9">
+                        <h2 class="form__header">Let’s talk</h2>
+                        <form>
+                            <div class="form-group">
+                                <label class="form-label" for="name"></label>
+                                <input class="form-control" type="name" id="text" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="text"></label>
+                                <input class="form-control" type="text" id="text" placeholder="Company Name">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="email"></label>
+                                <input class="form-control" type="email" id="text" placeholder="E-mail">
+                            </div>    
+                            <div class="form-group">
+                                <label class="form-label" for="tel"></label>
+                                <input class="form-control" type="tel" id="text" placeholder="Phone number (optional)">
+                            </div> 
+                            <div class="form-group">
+                                <label class="form-label" for="text">Сообщение</label>
+                                <textarea class="form-control" id="text" rows="3">How we can help you</textarea>
+                              </div>
+                        </form>
+                        <button type="submit" class="btn btn-block btn--white"><strong>Submit</strong></button> 
+                    </div>
+                </div>
+        </main>
+
+        <footer>
+            <div class="contacts__footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <button class="btn switcher p-0 ml-3 mb-5" style="border-radius: 50px;"></button>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="d-flex justify-content-between">
+                                <div class="pl-md-4">
+                                    <a href="tel:+972-773013642" class="contacts__contacts">+972-773013642 </a><br>
+                                    <a href="tel:+972-773003642" class="contacts__contacts">+972-773003642</a>
+                                </div>
+                                <div>
+                                    <p class="contacts__contacts">contact@eclipsetm.com<br>7, Moshe Levi St., <br>Rishon Lezion, Israel</p>
+                                    
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-5">
+                        <p class="contacts__rights">© 2020 Eclipse</p>
+                        <a href="https://otmans.co.il" target="_blank" class="design">Designed by Otmans</a> 
+                    </div>
+                </div>
+            </div>            
+        </footer>
+    </body>
+
+    <script src="js/main.js"></script>
+    
+</html>

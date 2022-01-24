@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/main.min.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <title>Eclipse</title>
+    </head>
+    <body style="background-color: #000000;">
+
+        <div class="loading__container">
+            <div class="loading">
+                <div class="shadow"></div>
+                <div class="mask"></div>
+            </div>
+        </div>
+
+        <main>
+            <a href="#" id="back" class=" logo__link--arrow" onclick="history.back();">
+                <h1 class="logo__text--dark m-2">&larr;</h1>
+            </a>
+
+            <div class="fixed-bottom" style="height:90vh">
+                 <div class="player player--fullscreen plyr__video-embed" id="player">
+                    <iframe width="739" height="416" src="https://www.youtube.com/embed/6IJYbpwrdgQ?autoplay=1&amp;loop=1&amp;&amp;playlist=Video_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen allowtransparency allow="autoplay"></iframe>
+                </div>
+            </div>
+        </main>
+
+    </body>
+
+    <script src="js/main.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</html>
